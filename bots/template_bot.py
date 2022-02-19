@@ -27,7 +27,7 @@ class MyPlayer(Player):
                 #Len road will depend on weight/distance between 
                 # generator & currTile?
                 build_type = StructureType.ROAD
-
+                
                 
             elif self.isValidTower == True and self.isValidRoad == False:
                 #Need coordinates
